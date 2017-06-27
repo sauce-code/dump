@@ -1,0 +1,24 @@
+/* Testet die Aneinanderreihung von Rechenoperationen */
+
+int a;
+int b;
+int c;
+int d;
+
+a := 4 / 3;
+b := 1 + 2 * 3;
+c := 1 + 2 * 3 / 3;
+d := 1 + 2 * 3 / 3 + 1 * 4 / 2 * 7;
+
+write(a);
+write(b);
+write(c);
+write(d);
+
+/* Die erwarteten Ausgaben sind:
+1
+7
+3
+3
+man beachte: es wird stets * vor / gerechnet
+*/

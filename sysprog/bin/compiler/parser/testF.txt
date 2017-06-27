@@ -1,0 +1,15 @@
+/* Testet die Verwendung von read */
+
+int a;
+
+read(a);
+
+a := a * 6;
+a := a / 2;
+a := a / 3;
+
+write(a);
+
+/* Die erwarteten Ausgaben sind:
+was auch immer eingegeben wurde
+*/

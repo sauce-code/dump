@@ -1,0 +1,27 @@
+/* Testet die Verwendung von WHILE */
+
+int hallo;
+int[3] ich;
+
+hallo := 3;
+ich[1] := 0;
+
+while(ich[1] < hallo) {
+	ich[1] := ich[1] + 1;
+	write(ich[1]);
+};
+
+write(hallo);
+write(ich[0]);
+write(ich[1]);
+write(ich[2]);
+
+/* Die erwarteten Ausgaben sind:
+1
+2
+3
+3
+0
+3
+0
+*/

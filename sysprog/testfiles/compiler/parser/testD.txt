@@ -1,0 +1,24 @@
+/* Testet die Verwendung von IF */
+
+int a;
+int b;
+
+a := 3;
+b := 0;
+
+if (a < b) {
+	a := 10;
+	b := a / 2;
+}
+else {
+	b := 10;
+	a := b + a;
+};
+
+write(a);
+write(b);
+
+/* Die erwarteten Ausgaben sind:
+13
+10
+*/
